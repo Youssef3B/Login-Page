@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(/images/wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-top: 20px;
+}
+.card{
+    width: 400px;
+    height: 250px;
+    background-color: #FEF4F5;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.203);
+    padding-top: 40px;
+}
+label{
+    margin-left: 25px;
+    font-size: 12px;
+    padding-top: 40px;
+    color: rgb(54, 54, 54);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    display: block;
+    width: 350px;
+    margin-left: 40px;
+    margin-right: 40px  ;
+    margin-top: 10px;
+    height: 36px;
+    background-color: rgb(230, 228, 228);
+    border: none;
+    border-radius: 6px;
+    margin: auto;
+}
+.check{
+    margin-top: 20px;
+}
+#ch{
+    width: 15px;
+    height: 15px;
+    margin-left: 30px;
+    display: inline;
+    }
+#souvenir{
+    position: relative;
+    bottom: 2px;
+    right: 24px;
+    font-size: 12px;
+}
+.check a{
+    color: rgb(125, 125, 125);
+    font-size: 14px;
+    margin-right: 10px;
+}
+button{
+    background-color: rgb(118, 118, 245);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
